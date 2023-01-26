@@ -5,7 +5,7 @@ def drive(left, right):
     bot.drive_direct(left, right)
     time.sleep(2)
 
-def turn(amount):
+def turn(amount=1):
     bot.drive_direct(100*amount, -100*amount)
     time.sleep(2)
 
