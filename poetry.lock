@@ -1,0 +1,50 @@
+[[package]]
+name = "colorama"
+version = "0.4.6"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
+
+[[package]]
+name = "pycreate2"
+version = "0.8.0"
+description = "A library to control iRobot Create 2 with python"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+colorama = "*"
+pyserial = ">=3.4,<4.0"
+simplejson = "*"
+
+[[package]]
+name = "pyserial"
+version = "3.5"
+description = "Python Serial Port Extension"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+cp2110 = ["hidapi"]
+
+[[package]]
+name = "simplejson"
+version = "3.18.1"
+description = "Simple, fast, extensible JSON encoder/decoder for Python"
+category = "main"
+optional = false
+python-versions = ">=2.5, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "12446e207308fb497da969b470b71a184fc1582592c09dcb5c1065a09ad345ee"
+
+[metadata.files]
+colorama = []
+pycreate2 = []
+pyserial = []
+simplejson = []
